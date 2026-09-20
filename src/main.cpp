@@ -25,7 +25,23 @@ int main()
     cout << "Database Status: " << database.getConnectionStatus() << endl;
 
     // Customer
-    Customer customer(1, "Tharushi", "0712345678", "tharushi@gmail.com");
+    Customer customer(1, "Tharushi", "0712345678", "tharushi@gmail.com");// Polymorphism Test
+Person* person1;
+Person* person2;
+
+person1 = new Customer(1, "Tharushi", "0712345678", "tharushi@gmail.com");
+person2 = new Staff(101, "Nimali", "0771234567", "Hair Stylist", 50000);
+
+cout << "\n--- Polymorphism Test ---" << endl;
+
+person1->display();
+
+cout << endl;
+
+person2->display();
+
+delete person1;
+delete person2;
 
     cout << "\n--- Customer Details ---" << endl;
     customer.display();
