@@ -7,6 +7,7 @@ ICT1306 - OOP Group Project
 - anhaaysh
 - ChamudiN2005
 - kwidisingha
+- gihaninavoda
 
    📝 Project Description
 Salon management system for appointments, customers and services.
