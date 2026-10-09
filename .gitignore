@@ -1,2 +1,6 @@
 ZELORA.exe
 *.exe
+# Visual Studio build files
+.vs/
+**/x64/
+*.vcxproj.user
